@@ -42,8 +42,7 @@
   	<dependency>
   		<groupId>com.github.herong</groupId>
   		<artifactId>spring-remote-annotation</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  		<type>jar</type>
+  		<version>0.0.1.RELEASE</version>
   		<scope>compile</scope>
   	</dependency>
   </dependencies>
