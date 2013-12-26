@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.github.com/herong/spring/remote"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        xmlns:beans="http://www.springframework.org/schema/beans"
+        targetNamespace="http://www.github.com/herong/spring/remote"
+        elementFormDefault="qualified"
+        attributeFormDefault="unqualified">
+
+    <xsd:element name="remote-export">
+		<xsd:annotation>
+			<xsd:documentation><![CDATA[
+      			Exports classes whose interfaces have been annotated with @Remote as Spring Remoting services.
+        ]]></xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+</xsd:schema>
